@@ -1,0 +1,28 @@
+{
+  "name": "@monorepo-reason-app/reason-react-chunked",
+  "reason": {
+    "react-jsx": 3
+  },
+  "sources": {
+    "dir": "src",
+    "subdirs": true
+  },
+  "package-specs": [
+    {
+      "module": "commonjs"
+    }
+  ],
+  "suffix": ".bs.js",
+  "namespace": true,
+  "bs-dependencies": [
+    "reason-react",
+    "bs-dynamic-import",
+    "reason-loadable",
+    "reason-urql",
+    "wonka"
+  ],
+  "refmt": 3,
+  "ppx-flags": [
+    "graphql_ppx/ppx"
+  ]
+}
